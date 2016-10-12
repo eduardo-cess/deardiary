@@ -23,7 +23,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "diarios": {
+      "type": "hasMany",
+      "model": "diario",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
