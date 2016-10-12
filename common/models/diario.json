@@ -1,0 +1,24 @@
+{
+  "name": "diario",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "texto": {
+      "type": "string",
+      "required": true,
+      "default": "nenhum"
+    },
+    "idUsuario": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
